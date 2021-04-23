@@ -10,7 +10,7 @@ module.exports = (env, argv) => {
 
   const filename=(ext)=>isProd ?
       `[name].[contenthash].bundle.${ext}` : `[name].bundle.${ext}`;
-  console.log('isProd', isProd);``
+  console.log('isProd', isProd); ``;
   console.log('isDev', isDev);
   const plugins = () => {
     const base = [
