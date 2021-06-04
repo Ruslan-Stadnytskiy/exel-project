@@ -10,5 +10,10 @@ module.exports = {
     node: true,
     es6: true,
   },
+  rules: {
+    'require-jsdoc': 'off',
+    'semi': 'off',
+  },
+
   extends: ['eslint:recommended', 'google'],
 };
